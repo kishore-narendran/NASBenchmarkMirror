@@ -1,4 +1,4 @@
-c CLASS = S
+c CLASS = B
 c  
 c  
 c  This file is generated automatically by the setparams utility.
@@ -7,15 +7,15 @@ c  in this directory. Do not modify it by hand.
 c  
         integer nx, ny, nz, maxdim, niter_default
         integer ntotal, nxp, nyp, ntotalp
-        parameter (nx=64, ny=64, nz=64, maxdim=64)
-        parameter (niter_default=6)
+        parameter (nx=512, ny=256, nz=256, maxdim=512)
+        parameter (niter_default=20)
         parameter (nxp=nx+1, nyp=ny)
         parameter (ntotal=nx*nyp*nz)
         parameter (ntotalp=nxp*nyp*nz)
         logical  convertdouble
         parameter (convertdouble = .false.)
         character compiletime*11
-        parameter (compiletime='23 Oct 2015')
+        parameter (compiletime='18 Nov 2015')
         character npbversion*3
         parameter (npbversion='3.3')
         character cs1*8
